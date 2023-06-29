@@ -111,6 +111,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.health-service.samsung \
     android.hardware.health-service.samsung-recovery
+
 # HIDL
 PRODUCT_PACKAGES += \
    libhidltransport \
@@ -213,6 +214,10 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2.vendor:64 \
     android.hardware.radio.deprecated@1.0.vendor:64 \
     secril_config_svc
+
+# Samsung Doze
+PRODUCT_PACKAGES += \
+    SamsungDoze
 
 # Sensors
 PRODUCT_PACKAGES += \
